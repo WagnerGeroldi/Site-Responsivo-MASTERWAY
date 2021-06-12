@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Master Way - Cursos</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+        crossorigin="anonymous"></script>
+    <style>
+        footer {
+            height: 50px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: black;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="assets/logo.svg" alt="logo-master-way" width="80" height="80">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Início</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#sobre">Sobre</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#professores">Professores</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#cursos">Nossos Cursos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#form">Contato</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="assets/carousel/IMG-CAROUSEL-1.jpg" class="d-block w-100" alt="IMAGEM-1">
+            </div>
+            <div class="carousel-item">
+                <img src="assets/carousel/IMG-CAROUSEL-2.jpg" class="d-block w-100" alt="IMAGEM-2">
+            </div>
+            <div class="carousel-item">
+                <img src="assets/carousel/IMG-CAROUSEL-3.jpg" class="d-block w-100" alt="IMAGEM-3">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <div class="container-fluid bg-light" id="sobre">
+        <div class="row">
+            <div class="col mt-3">
+                <h1 class="text-center text-purple"> MASTER WAY CURSOS</h1>
+            </div>
+        </div>
+        <div class="row  p-3">
+            <div class="col-md-6 col-sm-12" style="text-align: justify;">
+                <p>A Master Way surgiu em 2021 com o propósito de proporcionar a seus alunos um curso completo e que
+                    apresenta uma grade curricular que realmente levará ao aluno um aprendizado sofisticado. <br>
+                    Sabe aquele curso chato que você só vai por que precisa cumprir um contrato? <br><br>
+                    Conhecemos muitas histórias deste tipo, e por saber exatamente o que você precisa para ter
+                    excelência
+                    na área da tecnologia, apresentamos um novo jeito de aprender informática, o jeito MASTER WAY.
+                </p>
+            </div>
+            <div class="col-md-6 col-sm-12">
+                <img class="img-fluid img-thumbnail mx-auto d-block" width="400" src="assets/body/imagem.webp" alt="">
+            </div>
+        </div>
+        <div class="row" id="professores">
+            <div class="col mt-3">
+                <h1 class="text-center text-purple"> Nossos Professores</h1>
+            </div>
+        </div>
+        <div class="row bg-light p-3">
+            <div class="col-md-6 col-sm-12 ">
+                <img class="img-fluid img-thumbnail mx-auto d-block" width="400" src="assets/body/professor.jpg" alt="">
+            </div>
+            <div class="col-md-6 col-sm-12 mt-1" style="text-align: justify;">
+                <p>Entendemos que o segredo por trás de um aluno feliz e satisfeito com o curso
+                    passa por um professor que realmente conheça o conteúdo
+                    e que possa traduzir seu conhecimento técnico em forma de explicação em sala de aula, então pensando
+                    nisto
+                    a Master Way trabalha apenas com professores altamente capacitados e com formação na área da
+                    tecnologia, para
+                    que seu aprendizado seja garantido. Nossos professores passam por treinamentos constantes, a
+                    tecnologia é
+                    uma área que não permite ficar acomodado, sempre surgem novas ideias, tecnologias e metodos e
+                    estamos completamente
+                    ligados nisto.
+                </p>
+            </div>
+        </div>
+
+        <div class="row" id="cursos">
+            <div class="col mt-3">
+                <h1 class="text-center"> Nossos Cursos</h1>
+                <h6 class="text-center">Conheça abaixo nossa grade de cursos, onde o aluno poderá escolher a área da
+                    teconolgia que mais se encaixa em sua vontade de aprender. O aluno frequenta o curso 2 vezes na
+                    semana por 2 horas
+                    e ao final do curso recebe um certificado de conclusão com registro a nível nacional.
+                </h6>
+            </div>
+        </div>
+        <div class="accordion accordion-flush" id="accordionFlushExample">
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingOne">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                        CURSO - INFORMÁTICA ESSENCIAL
+                    </button>
+                </h2>
+                <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
+                    data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">Neste curso o aluno aprenderá o essencial da informática, aconselhado
+                        para quem ainda não tem conhecimento prévio ou que possua pouco conhecimento em tecnologia.
+                        O curso é dividido em 5 módulos:
+                        <ul>
+                            <li>Windows 10</li>
+                            <li>Microsoft Word</li>
+                            <li>Microsoft Excel</li>
+                            <li>Microsoft PowerPoint</li>
+                            <li>Internet e e-mails</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                        CURSO - MONTAGEM E MANUTENÇÃO DE COMPUTADORES
+                    </button>
+                </h2>
+                <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
+                    data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">Neste curso o aluno aprenderá um dos conteúdos mais importantes da
+                        informática,
+                        este curso é indicado para quem já possua um nível básico de conhecimento, nele tratamos sobre a
+                        manutenção do
+                        computador e seus diagnósticos. O curso é dividido em 4 módulos:
+                        <ul>
+                            <li>Introdução a manutenção</li>
+                            <li>Peças e compatibilidade</li>
+                            <li>Formatação e instalação do sistema</li>
+                            <li>Redes e configuração</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseThree" aria-expanded="false"
+                            aria-controls="flush-collapseThree">
+                            CURSO - DESIGNER GRÁFICO
+                        </button>
+                    </h2>
+                    <div id="flush-collapseThree" class="accordion-collapse collapse"
+                        aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">Este curso é voltado para quem curte artes gráficas e deseja
+                            entrar no mercado de trabalho na área do Design. O curso é dividido em 3 módulos:
+                            <ul>
+                                <li>Corel Draw</li>
+                                <li>Adobe PhotoShop</li>
+                                <li> AdobeIllustrator</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingFour">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseFour" aria-expanded="false"
+                            aria-controls="flush-collapseFour">
+                            CURSO - EDITOR DE VÍDEOS
+                        </button>
+                    </h2>
+                    <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">O curso de Edição de vídeos é voltado para os amantes de animações
+                            gráficas, indicado para quem deseja entrar no mercado de artista digital, é recomendado
+                            prévio
+                            conhecimento de Design para fazer este curso. O curso é dividido em 3 módulos:
+                            <ul>
+                                <li>Magix Vegas</li>
+                                <li>Adobe After Effects</li>
+                                <li>Adobe Premiere Pro</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingFive">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseFive" aria-expanded="false"
+                            aria-controls="flush-collapseFive">
+                            CURSO - MODELADOR 3D
+                        </button>
+                    </h2>
+                    <div id="flush-collapseFive" class="accordion-collapse collapse" aria-labelledby="flush-headingFive"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">Este curso é totalmente voltado para quem pretende trabalhar na
+                            área da engenharia civil, arquitetura e urbanismo ou design de interiores, é impreensindível
+                            conhecimento prévio de design para que consiga absorver os conceitos. O curso é dividido em
+                            3 módulos:
+                            <ul>
+                                <li>Sketchup</li>
+                                <li>Lumion</li>
+                                <li>Promob</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingSix">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseSix" aria-expanded="false" aria-controls="flush-collapseSix">
+                            CURSO - PROGRAMADOR WEB FRONT-END
+                        </button>
+                    </h2>
+                    <div id="flush-collapseSix" class="accordion-collapse collapse" aria-labelledby="flush-headingSix"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">Se existe uma área da tecnologia que inspira, ela se chama
+                            PROGRAMAÇÃO.
+                            O curso de Programador Web irá preparar o aluno para desenvolver o front-end de aplicações
+                            web, como
+                            sites, web-apps entre outros. Este curso é dividido em 3 módulos e necessita de 2 semestres
+                            para conclusão:
+                            <ul>
+                                <li>HTML5 - Estruturação de páginas</li>
+                                <li>CSS3 - Estilos de formatação</li>
+                                <li>JavaScript - Programação e funcionalidades</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingSeven">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseSeven" aria-expanded="false"
+                            aria-controls="flush-collapseSeven">
+                            CURSO - PROGRAMADOR BACK-END
+                        </button>
+                    </h2>
+                    <div id="flush-collapseSeven" class="accordion-collapse collapse"
+                        aria-labelledby="flush-headingSeven" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">Este curso é voltado para estudantes de programação que desejam
+                            ingressar
+                            no mercado de trabalho Back-END, neste curso estudamos lógica de programação, banco de dados
+                            e
+                            desenvolvimento de softwares. O curso é dividido em 4 módulos e dura 3 semestres.
+                            <ul>
+                                <li>Linguagem JAVA</li>
+                                <li>JAVAFX</li>
+                                <li>SpringBoot</li>
+                                <li>Banco de Dados MySQL</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid bg-light" id="form">
+                <div class="row">
+                    <div class="col mt-3">
+                        <h1 class="text-center text-purple"> Contate-nos</h1>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6 col-sm-12 mt-1" style="text-align: justify;">
+                        <p>
+                        </p>
+                    </div>
+                    <div class="card mx-auto" style="width: 90%;">
+                        <div class="card-header ">
+                            <h6 class="mb-0 d-flex justify-content-center ">
+                                Nossa equipe está aguardando seu contato, por favor, preencha o formulário abaixo...
+                            </h6>
+                        </div>
+                        <form action="" class="container-fluid">
+                            <div class="row form-row">
+                                <div class="col-12 col-md-4">
+                                    <div class="form-group">
+                                        <label for="nome" class="text-purple ">Nome:</label>
+                                        <input type="text" class="form-control mb-2" id="nome"
+                                            placeholder="Informe seu Nome">
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-4">
+                                    <div class="form-group">
+                                        <label for="nome" class="text-purple">E-mail:</label>
+                                        <input type="email" class="form-control" id="email"
+                                            placeholder="usuario@usuario.com">
+                                    </div>
+                                    <small class="form-text text-muted">
+                                        Enviaremos um e-mail para confirmar o recebimento do formulário.
+                                    </small>
+                                </div>
+                                <div class="col-12 col-md-4">
+                                    <div class="form-group">
+                                        <label for="linguagem" class="text-purple">Escolha o curso desejado:</label>
+                                        <select name="" id="linguagem" class="form-select mb-2">
+                                            <option value="JavaScript">Informática Essencial</option>
+                                            <option value="Java">Montagem e manutenção de computadores</option>
+                                            <option value="c++">Designer Gráfico</option>
+                                            <option value="python">Editor de Vídeos</option>
+                                            <option value="hmtl5">Modelador 3D</option>
+                                            <option value="css3">Programador Web</option>
+                                            <option value="sass">Programador Back-END</option>
+                                            <option selected>Escolha a linguagem que mais conhece</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="row row-form">
+                                <div class="col-12 col-md-4">
+                                    <div class="form-group">
+                                        <label for="linguagem" class="text-purple">Como nos Encontrou:</label>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="flexRadioDefault"
+                                                id="flexRadioDefault1">
+                                            <label class="form-check-label" for="flexRadioDefault1">
+                                                Facebook
+                                            </label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="flexRadioDefault"
+                                                id="flexRadioDefault2" checked>
+                                            <label class="form-check-label" for="flexRadioDefault2">
+                                                Instagram
+                                            </label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="flexRadioDefault"
+                                                id="flexRadioDefault1">
+                                            <label class="form-check-label" for="flexRadioDefault1">
+                                                Amigos
+                                            </label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="flexRadioDefault"
+                                                id="flexRadioDefault2" checked>
+                                            <label class="form-check-label" for="flexRadioDefault2">
+                                                Linkedin
+                                            </label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="flexRadioDefault"
+                                                id="flexRadioDefault2" checked>
+                                            <label class="form-check-label" for="flexRadioDefault2">
+                                                Outros
+                                            </label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-4 mb-3">
+                                    <label for="exampleFormControlTextarea1" class="form-label">Mande uma mensagem para
+                                        nós:</label>
+                                    <textarea class="form-control" placeholder="Sua mensagem aqui..."
+                                        id="exampleFormControlTextarea1" rows="3"></textarea>
+                                </div>
+                                <div class="col-12 mt-md-5">
+                                    <button class="btn bg-purple text-white" type="submit"
+                                        onclick="alerta()">Enviar</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--final do container-->
+    <footer class=" mt-4">
+        <p class="" style="padding-top: 10px;"> Desenvolvido por Wagner Lucas Geroldi</p>
+    </footer>
+</body>
+
+</html>
