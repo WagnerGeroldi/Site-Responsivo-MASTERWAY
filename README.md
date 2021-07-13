@@ -3,7 +3,6 @@
 Site desenvolvido com Bootstrap para praticar algumas ferramentas!
 
 
-
 #### Ferramentas Bootstrap utilizadas
 
 1. row
@@ -14,4 +13,4 @@ Site desenvolvido com Bootstrap para praticar algumas ferramentas!
 
 Utilizei uma ferramenta chamada AOS para criar o fade das rows!
 
-link github pages: https://wagnergeroldi.github.io/masterway/
+link github pages: https://wagnergeroldi.github.io/Site-Responsivo-MASTERWAY/
